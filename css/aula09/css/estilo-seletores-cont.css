@@ -1,0 +1,40 @@
+/* Seleciona todos os cabeçalhos h2 que estão dentro do elemento div */
+
+div h2 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Seleciona todos os elementos do tipo p que possuem como elemento pai a div da classe "div-intrena1"*/
+
+/* elemento-pai > elemento-filho */
+
+div.div-interna1>p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+/* Seleciona todos os elementos do tipo h3 que possuem como elemento pai a div da classe "div-intrena1"*/
+
+/* elemento-pai > elemento-filho */
+
+div.div-interna1>h3 {
+    text-align: center;
+    border: 2px solid green;
+    background-color: lightgreen;
+}
+
+/*Seleciona o elemento do tipo <a> que possui o atributo target*/
+
+a[target] {
+    background-color: yellow;
+}
+
+/* seletor com base no nome do atributo e seu VALOR*/
+
+/* Usado para selecionar os elementos do tipo <a> com o atributo target e VALOR "_blank"*/
+
+a[target="_blank"] {
+    background-color: lightcyan;
+}

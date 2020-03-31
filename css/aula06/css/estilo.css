@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: yellow;
+}
+
+p {
+    color: brown;
+    font-family: Arial;
+    font-size: 25px;
+    font-style: italic;
+}
+
+ol {
+    font-family: Courier;
+    color: orange;
+    list-style-type: upper-roman;
+}

@@ -1,0 +1,36 @@
+.centro {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.direita {
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-weight: bold;
+}
+
+#linguagens {
+    color: brown;
+    list-style-type: upper-roman;
+}
+
+#equipamentos {
+    color: darkblue;
+    list-style-type: upper-latin;
+}
+
+#paragrafo2{
+    color: red;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

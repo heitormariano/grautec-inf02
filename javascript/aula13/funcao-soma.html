@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Função SOMA - JS</title>
+</head>
+<body>
+    <p>Clique no botão abaixo</p>
+    <button type="button" onclick="executarSoma(100,200)">Clique Aqui</button>
+    <p id="soma">Aqui aparecerá a soma</p>
+
+    <script>
+        function executarSoma(a, b){
+            let somaTeste = a + b;
+            document.getElementById("soma").innerHTML = somaTeste;
+        }
+    </script>
+</body>
+</html>

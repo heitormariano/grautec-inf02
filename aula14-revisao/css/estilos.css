@@ -1,0 +1,22 @@
+/*seletor para ID*/
+p#paragrafo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border:red solid 4px;
+    background-color: yellow;
+}
+
+ol > li {
+    list-style: upper-roman;
+    color: green;
+}
+
+ul > li {
+    list-style: square;
+    color: blue;
+}
+
+div.titulos{
+    border: solid black 4px;
+    background-color: green;
+}

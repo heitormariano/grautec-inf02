@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Brincando com JS</title>
+</head>
+
+<body>
+    <p id="texto"></p>
+    <p id="novoTexto"></p>
+
+    <script>
+        let carro01 = "Fiat Uno";
+        let carro02 = "Chevrolet Onix";
+        let frase = carro01 + "<br>" + carro02;
+
+        let nomeCurso = "Informática";
+        let cidade = "Parnamirim";
+        let infoGrau = "O Grau Técnico tem o curso de " + nomeCurso + " e fica em " + cidade;
+
+        document.getElementById("texto").innerHTML = frase;
+        document.getElementById("novoTexto").innerHTML = infoGrau;
+    </script>
+</body>
+
+</html>

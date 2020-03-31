@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Usando Função JS</title>
+    </head>
+    <body>
+        <h2>Título da Página</h2>
+        <h3 id="data"></h3>
+        <button type="button" onclick="exibirDataHora()">CLIQUE EM MIM</button>
+
+        <script>
+            // criando função JavaScript
+            function exibirDataHora(){
+                //HTML DOM (usem o site do W3Schools para mais informações)
+                document.getElementById("data").innerHTML  = Date();
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+h1, h2, p {
+    text-align: center;
+    color: blue;
+}
+
+p#par-estilo {
+    text-align: right;
+    color: red;
+}
+h2#cabecalho-teste{
+    text-align: left;
+    color: brown;
+    font-family: Arial;
+}

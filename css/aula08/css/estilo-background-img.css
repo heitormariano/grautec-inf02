@@ -1,0 +1,12 @@
+body {
+    /* background-image: url(https://cdn5.colorir.com/desenhos/color/201049/773d6796c883c528d45a21258f54e263.png); */
+    background-image: url(../imagem/informatica-01.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+
+p {
+    color: red;
+    font-weight: bold;
+}

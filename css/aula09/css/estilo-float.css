@@ -1,0 +1,13 @@
+/*Usando a propriedade de estilo float*/
+
+/* float: left */
+div.esquerda {
+    float: left;
+    border: 2px solid red;
+}
+
+/* float: right */
+div.direita {
+    float: right;
+    border: 2px solid blue;
+}

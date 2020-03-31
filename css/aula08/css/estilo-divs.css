@@ -1,0 +1,17 @@
+div.intro1 {
+    border: 8px ridge red;
+    padding: 4px;
+    background-color: yellow;
+}
+
+div.intro2 {
+    border: 8px ridge blue;
+    padding: 4px;
+    background-color: lightskyblue;
+}
+
+div.intro3 {
+    border: 8px ridge grey;
+    padding: 4px;
+    background-color: honeydew;
+}

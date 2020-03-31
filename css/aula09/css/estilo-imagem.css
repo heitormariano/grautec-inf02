@@ -1,0 +1,9 @@
+/*Usando a propriedade de estilo float*/
+
+img {
+    float: left;
+    border: 2px solid black;
+    margin-right: 8px;
+    width: 160px;
+    height: 100px;
+}

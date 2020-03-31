@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Exibindo data e hora</title>
+    </head>
+    <body>
+        <button type="button" onclick="exibirDataHora()">
+            Exibir Data/Hora
+        </button>
+
+        <p id="data"></p>
+        <script>
+            //criar uma função
+            function exibirDataHora(){
+                document.getElementById("data").innerHTML = Date();
+            }
+        </script>
+    </body>

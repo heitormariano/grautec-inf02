@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uso de Funções em JS</title>
+</head>
+
+<body>
+    <p>Clique no botão para ver a soma</p>
+
+    <button type="button" onclick="calcularSoma(10,10)">Clique aqui</button>
+    <p>A soma de 10 + 10:</p>
+    <p id="soma"></p>
+
+    <script>
+        function calcularSoma(num01, num02) {
+            let soma = num01 + num02;
+            document.getElementById("soma").innerHTML = soma;
+        }
+    </script>
+</body>
+
+</html>
